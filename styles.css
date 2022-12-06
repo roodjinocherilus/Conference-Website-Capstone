@@ -187,3 +187,49 @@ header{
 .speakers-container h2 {
     text-align: center;
 }
+
+.speakers {
+    display:grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-gap: 10px;
+    margin: 20px 0;
+    
+}
+
+.img-holder{
+background: url(./images/speaker_background.png);
+background-position: top left;
+background-repeat: no-repeat;
+background-size: 50px;
+
+}
+.img-holder img{
+    width: 80%;
+    height: 90%;
+    object-fit: cover;
+    position: relative;
+    top: 10%;
+    left: 10%;
+    max-width: 85%;
+}
+.speaker-info {
+    padding: 20px 10px 5px 10px;
+}
+
+.speaker-name {
+    margin: 5px 0;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.speaker-title {
+    margin: 5px 0;
+    font-size: .9em;
+    color: #ec5242;
+   
+}
+
+.speaker-bio {
+    font-size: .8em;
+   
+}
