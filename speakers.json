@@ -1,0 +1,46 @@
+[
+    {
+        "id": "1",
+        "name": "John Doe",
+        "title": "Graphic Designer",
+        "image": "./images/speakers.jpeg",
+        "bio": "John is a graphic designer living in New York. He has been a graphic designer since 2001, and worked for the “Daily News” in NYC for 5 years."
+    },
+    {
+        "id": "2",
+        "name": "Mary Jane",
+        "title": "Software Engineer",
+        "image": "./images/speakers.jpeg",
+        "bio": "Jane iis a software engineer living in New York. She has been a software engineer since 2001, and worked for the “Daily News” in NYC for 5 years."
+    },
+    {
+        "id": "3",
+        "name": "Peter Parker",
+        "title": "Project Manager",
+        "image": "./images/speakers.jpeg",
+        "bio": "Peter is a project manager living in New York. He has been a project manager since 2001, and worked for the “Daily News” in NYC for 5 years."
+    },
+    {
+        "id": "4",
+        "name": "Clark Kent",
+        "title": "Web Developer",
+        "image": "./images/speakers.jpeg",
+        "bio": "Clark is a web developer living in New York. He has been a web developer since 2001, and worked for the “Daily News” in NYC for 5 years."
+    },
+    {
+        "id": "5",
+        "name": "Bruce Wayne",
+        "title": "Web Designer",
+        "image": "./images/speakers.jpeg",
+        "bio": "Bruce is a web designer living in New York. He has been a web designer since 2001, and worked for the “Daily News” in NYC for 5 years."
+    },
+    {
+        "id": "6",
+        "name": "Tony Stark",
+        "title": "Web Developer",
+        "image": "./images/speakers.jpeg",
+        "bio": "Tony is a web developer living in New York. He has been a web developer since 2001, and worked for the “Daily News” in NYC for 5 years."
+    }
+
+    
+]

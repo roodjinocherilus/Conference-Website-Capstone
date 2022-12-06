@@ -1,3 +1,189 @@
+@import url('https://fonts.cdnfonts.com/css/cocogoose');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+/* This CSS is mobile first CSS */
+
 body {
     margin:0;
+    font-family: 'Lato', sans-serif;
+}
+li{
+    list-style: none;
+    text-decoration: none;
+}
+
+/*Title Styling */
+h1{
+    font-size: 2.5em;
+    font-weight: 500;
+    color: #000;
+    line-height: 1.3em;
+    margin: 0;
+    padding: 0;
+    font-family: 'COCOGOOSE', sans-serif;
+    color: #ec5242;
+    text-transform: uppercase;                                         
+}
+
+h2{
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    font-family: 'COCOGOOSE', sans-serif;                                         
+}
+
+h3{
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;                                         
+}
+
+p{
+    font-size: 1em;
+    font-weight: 400;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;                                         
+}
+
+/* Header-Nav Styling */
+header{
+    position: fixed;
+    top: 0;
+    background-color: none;
+    margin: 0;
+    height: 50px;
+    width: 100%;
+    z-index: 1;
+}
+.nav-bar{
+    margin: 0;
+}
+
+
+
+.bar {
+    display: block;
+    width: 30px;
+    height: 5px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background: #000;
+  }
+  
+  .hamburger {
+    display: block;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 2;
+    border: 0px;
+  }
+
+/* Hero Styling */
+
+  .hero{
+    background-image: url("./images/main_big.png");
+    height: 75vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    display: block;
+    padding: 20px 10px;
+}
+
+.text-hero {
+    margin-top: 15%;
+    padding: 20px 10px;
+}
+
+.hero h2, .hero h3{
+    color: #ec5242;
+    margin: 10px 0;
+}
+
+.p-block {
+    height: 100px;
+    border: 2px solid white;
+    padding: 20px 30px;
+    background-color: rgb(238, 235, 235);
+    margin: 20px 0;
+}
+
+/* Program Styling */
+
+.program-container{
+    background: url(./images/pattern_bg.png);
+    background-color: #272a31;
+    padding:20px 30px;
+}
+
+.program-container h2{
+    color: #fff;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    margin: 20px 0;
+}
+
+.program {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 2fr;
+    margin: 20px auto;
+    justify-content: center;
+    align-content: center;
+    background-color: rgba(255, 255, 255, 0.096);
+    height: 80px;
+    padding: 10px 10px;
+}
+.hr{
+    width: 50px;
+    height: 2px;
+    background-color: #ec5242;
+    display: block;
+    margin: 0 auto;
+}
+
+.program img {
+   width: 50%;
+}
+
+.program h3 {
+    color: #ec5242;
+}
+.program p {
+    color: white;
+    font-size: 0.8em;
+}
+
+.join-btn {
+    background-color: #ec5242;
+    color: white;
+    border: none;
+    padding: 20px 40px;
+    margin: 40px auto;
+    font-size: 1em;
+    font-weight: 500;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Featured Speakers Styling */
+
+.speakers-container{
+    background-color: white;
+    margin: 10px 0;
+    padding: 20px 30px;
+}
+
+.speakers-container h2 {
+    text-align: center;
 }
