@@ -73,7 +73,7 @@ Wesbite of Bold Conference as my Capstone Project
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://roodjinocherilus.github.io/Conference-Website---Capstone/)
+- [Live Demo Link](https://roodjinocherilus.github.io/Conference-Website-Capstone/)
 - [Video Demo Link](https://www.loom.com/share/8992d319b3d644eca5bf8229af37d639)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
