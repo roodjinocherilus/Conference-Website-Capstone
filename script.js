@@ -9,16 +9,14 @@ window.onscroll = () => {
   }
 };
 
-
-
 function getSpeaker() {
-    let speakers = '';
-  
-    fetch('./speakers.json')
-      .then((res) => res.json())
-      .then((data) => {
-        data.forEach((speaker) => {
-          speakers += `
+  let speakers = '';
+
+  fetch('./speakers.json')
+    .then((res) => res.json())
+    .then((data) => {
+      data.forEach((speaker) => {
+        speakers += `
 
           <div class="speakers">
           <div class="img-holder">
@@ -31,19 +29,17 @@ function getSpeaker() {
               <p class="speaker-bio">${speaker.bio}</p>
           </div>
       </div>`;
-        });
-        document.getElementById('speaker-holder').innerHTML = speakers;
       });
-  }
-  
-  window.addEventListener('load', getSpeaker());
+      document.getElementById('speaker-holder').innerHTML = speakers;
+    });
+}
 
+window.addEventListener('load', getSpeaker());
 
-  const hamburger = document.querySelector('.hamburger');
+const hamburger = document.querySelector('.hamburger');
 const navitem = document.querySelector('.navitem');
 
 hamburger.addEventListener('click', () => {
   hamburger.classList.toggle('active');
   navitem.classList.toggle('display');
-  console.log('clicked');
 });
