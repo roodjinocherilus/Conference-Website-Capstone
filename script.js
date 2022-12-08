@@ -1,3 +1,16 @@
+const myNav = document.getElementById('nav');
+window.onscroll = () => {
+  if (document.body.scrollTop >= 50 || document.documentElement.scrollTop >= 50) {
+    myNav.classList.add('nav-colored');
+    myNav.classList.remove('nav-transparent');
+  } else {
+    myNav.classList.add('nav-transparent');
+    myNav.classList.remove('nav-colored');
+  }
+};
+
+
+
 function getSpeaker() {
     let speakers = '';
   
@@ -24,3 +37,13 @@ function getSpeaker() {
   }
   
   window.addEventListener('load', getSpeaker());
+
+
+  const hamburger = document.querySelector('.hamburger');
+const navitem = document.querySelector('.navitem');
+
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('active');
+  navitem.classList.toggle('display');
+  console.log('clicked');
+});
