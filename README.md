@@ -4,6 +4,7 @@
 
 
 <div align="center">
+  <img src="./images/creative-summit.png" alt="logo" width="500"  height="auto" />
 
   <h3><b>Conference Website</b></h3>
 <p>Conference Website as my Capstone Project</p>
