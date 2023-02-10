@@ -7,7 +7,7 @@
   <img src="./images/creative-summit.png" alt="logo" width="500"  height="auto" />
 
   <h3><b>Conference Website</b></h3>
-<p>This Website is a Capstone Project at the end of Module 1 in my Microverse Software Development Journey. The goal was to build a website for an upcoming conference. And the main functionalities were to showcase the conference and key Infomation about it</p>
+<p>This Project is a website for an upcoming conference. And the main functionalities were to showcase the conference's key details, information about the speaker and the agenda of the conference. It was buitl with HTML, CSS and Javascript. </p>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -36,12 +36,15 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Capstone Projectt - Event Website <a name="about-project"></a>
+# 📖 Capstone Projectt - Conference Website <a name="about-project"></a>
 
 
-**This Event Website** is a Website
+** This Project ** is a website for an upcoming conference. And the main functionalities were to showcase the conference's key details, information about the speaker and the agenda of the conference. We used Javascript to render the Speakers section dynamically.
 
 ## 🛠 Built With <a name="built-with"></a>
+- HTML
+- CSS
+- JS
 
 ### Tech Stack <a name="tech-stack"></a>
 
