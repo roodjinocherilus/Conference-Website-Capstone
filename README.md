@@ -7,7 +7,7 @@
   <img src="./images/creative-summit.png" alt="logo" width="500"  height="auto" />
 
   <h3><b>Conference Website</b></h3>
-<p>Conference Website as my Capstone Project</p>
+<p>This Website is a Capstone Project at the end of Module 1 in my Microverse Software Development Journey. The goal was to build a website for an upcoming conference. And the main functionalities were to showcase the conference and key Infomation about it</p>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -36,11 +36,10 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Bold Conference <a name="about-project"></a>
+# 📖 Capstone Projectt - Event Website <a name="about-project"></a>
 
-Wesbite of Bold Conference as my Capstone Project
 
-**Bold Conference** is a Website
+**This Event Website** is a Website
 
 ## 🛠 Built With <a name="built-with"></a>
 
